@@ -1,0 +1,21 @@
+{
+    "name": "cotya/maintainer-cooling",
+    "description": "some scripts to help maintaining OpenSource Projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flyingmana",
+            "email": "flyingmana@googlemail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cotya\\Maintainer\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^5.2",
+        "symfony/process": "^5.2",
+        "symfony/cache": "^5.2"
+    }
+}
